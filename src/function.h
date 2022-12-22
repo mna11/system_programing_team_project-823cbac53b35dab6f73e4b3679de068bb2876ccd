@@ -13,7 +13,6 @@ struct linked_list {
 typedef struct linked_list ELEMENT;
 typedef ELEMENT* LINK;
 
-
 LINK char_to_list(char s); // 데이터가 char인 헤드 주소
 unsigned long long int count(LINK head); // LINK 길이
 void print_list(LINK head); // 연결리스트 출력
